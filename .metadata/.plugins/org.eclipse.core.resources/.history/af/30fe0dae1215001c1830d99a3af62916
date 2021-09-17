@@ -1,0 +1,25 @@
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SampleScript {
+	
+		public static void main(String[] args) throws InterruptedException 
+		{
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\jayasm\\eclipse-workspace-SeleniumTraining\\SeleniumSamples\\Drivers\\chromedriver.exe");
+			WebDriver driver=new ChromeDriver();
+			driver.get("http://www.google.com");
+			//Thread.sleep(3000);
+			System.out.println(driver.getTitle());
+			driver.manage().window().fullscreen();
+			/*WebElement obj1=driver.findElement(By.className("gb_f"));
+			obj1.click();*/
+			WebElement searchSample=driver.findElement(By.name("q"));
+			searchSample.sendKeys("maveric systems");
+			searchSample.sendKeys(Keys.ENTER);
+			
+			Thread.sleep(6000);
+			driver.quit();
+			
+		
+		}
+}

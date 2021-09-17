@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite2" duration-ms="52904" started-at="2021-09-17T09:23:00 IST" finished-at="2021-09-17T09:23:53 IST">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="24855" started-at="2021-09-17T09:23:00 IST" finished-at="2021-09-17T09:23:25 IST">
+      <class name="com.picninc.testcases.RecorderScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.picninc.testcases.RecorderScript@67b355c8]" name="setup" is-config="true" duration-ms="6195" started-at="2021-09-17T09:23:00 IST" finished-at="2021-09-17T09:23:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.picninc.testcases.RecorderScript@67b355c8]" name="testParameterWithXML" duration-ms="18596" started-at="2021-09-17T09:23:06 IST" finished-at="2021-09-17T09:23:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.picninc.testcases.RecorderScript -->
+    </test> <!-- SampleTest -->
+    <test name="Sample2Test" duration-ms="28019" started-at="2021-09-17T09:23:25 IST" finished-at="2021-09-17T09:23:53 IST">
+      <class name="com.picninc.testcases.RecorderScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.picninc.testcases.RecorderScript@7e91ed74]" name="setup" is-config="true" duration-ms="7639" started-at="2021-09-17T09:23:25 IST" finished-at="2021-09-17T09:23:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.picninc.testcases.RecorderScript@7e91ed74]" name="testParameterWithXML" duration-ms="20379" started-at="2021-09-17T09:23:32 IST" finished-at="2021-09-17T09:23:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.picninc.testcases.RecorderScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
